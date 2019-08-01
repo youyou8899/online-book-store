@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+   <meta charset="utf-8">
+   <title>COMP5347 Assignment One</title>
+   <link rel="stylesheet" href="index.css" />
+   <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+<div id="searchBox">
+   <p>
+      <input type="search" id="input"/>
+      <button id="search">search</button>
+      <select name="selector" id="selector">
+          <option value="Category">Category</option>
+          <option value="art">Arts</option>
+          <option value="science history">Science History</option>
+          <option value="Action and Adventure">Action and Adventure</option>
+          <option value="Health">Health</option>
+          <option value="Science Fiction">Science Fiction</option>
+          <option value="Blank">Blank</option>
+      </select>
+      <button id="filter">Filter</button>
+       <span id="a" class="cart"></span>
+       <img src="images/cart1.png" alt="" class="cart">
+      <button class="cart" id="reset">Reset the cart</button>
+       <button class="cart" id="add">Add to cart</button>
+   </p>
+</div>
+
+<div id="listBox">
+   <table>
+      <caption>Online Book Store</caption>
+      <thead>
+        <tr>
+            <th></th>
+            <th></th>
+           <th>Title</th>
+           <th>Authors</th>
+           <th>Year</th>
+           <th>Price</th>
+           <th>Publisher</th>
+           <th>Category</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="title">
+          <td >
+              <input type="checkbox" class="checkbox"></td>
+            <td><img src="images/01.jpg"></td>
+                <!--<p>The Arts: A Visual Encyclopedia</p>-->
+                <td><span>The Arts: A Visual Encyclopedia</span>
+
+          </td>
+           <td>DK</td>
+           <td>2017</td>
+           <td>13.99</td>
+           <td>DK Children</td>
+           <td class="category">Art</td>
+        </tr>
+        <tr class="title">
+            <td><input type="checkbox" class="checkbox"></td>
+            <td><img src="images/11.jpg"></td>
+            <td><span>The Lost Art of Reading Nature's Signs: Use
+                    Outdoor Clues to Find Your Way, Predict the Weather, Locate Water,
+                    Track Animals―and Other Forgotten Skills (Natural Navigation)</span></td>
+            <td>Tristan Gooley</td>
+            <td>2015</td>
+            <td>11.52</td>
+            <td>The Experiment</td>
+            <td class="category">Art</td>
+        </tr>
+        <tr class="title">
+            <td >
+                <input type="checkbox" class="checkbox"></td>
+                <td><img src="images/02.jpg"></td>
+                <td><span>The Scientists: A History of Science Told Through the Lives of Its Greatest Inventors</span>
+
+            </td>
+            <td>John Gribbin</td>
+            <td>2004</td>
+            <td>16.00</td>
+            <td>Random House Trade Paperbacks</td>
+            <td>Science History</td>
+        </tr>
+        <tr class="title">
+            <td >
+                <input type="checkbox" class="checkbox"></td>
+                <td><img src="images/22.jpg"></td>
+                <td><span>The Invention of Science: A New History of the Scientific Revolution</span>
+
+            </td>
+            <td>David Wootton</td>
+            <td>2016</td>
+            <td>7.75</td>
+            <td>Harper Perennial</td>
+            <td>Science History</td>
+        </tr>
+        <tr class="title">
+            <td >
+                <input type="checkbox" class="checkbox"></td>
+                <td><img src="images/03.jpg"></td>
+                <td><span>The Hunger Games</span>
+
+            </td>
+            <td>Suzanne Collins</td>
+            <td>2010</td>
+            <td>7.55</td>
+            <td>Scholastic Press</td>
+            <td>Action and Adventure</td>
+        </tr>
+        <tr class="title">
+            <td >
+                <input type="checkbox" class="checkbox"></td>
+                <td><img src="images/33.jpg"></td>
+                <td><span>Coyote Peterson’s Brave Adventures: Wild Animals in a Wild World</span>
+
+            </td>
+            <td>Coyote Peterson</td>
+            <td>2017</td>
+            <td>13.44</td>
+            <td>Mango</td>
+            <td>Action and Adventure</td>
+        </tr>
+        <tr class="title">
+            <td >
+                <input type="checkbox" class="checkbox"></td>
+                <td><img src="images/04.jpg"></td>
+                <td><span>CDr. A's Habits of Health: The Path to Permanent Weight Control & Optimal Health</span>
+
+            </td>
+            <td>Wayne Scott Anderse</td>
+            <td>2010</td>
+            <td>24.43</td>
+            <td>Habits of Health Press</td>
+            <td>Health</td>
+        </tr>
+        <tr class="title">
+            <td >
+                <input type="checkbox" class="checkbox"></td>
+                <td><img src="images/44.jpg"></td>
+                <td><span>The New Health Rules: Simple Changes to Achieve Whole-Body Wellness</span>
+
+            </td>
+            <td>Frank Lipman M.D.</td>
+            <td>2016</td>
+            <td>8.98</td>
+            <td>Artisan</td>
+            <td>Health</td>
+        </tr>
+        <tr class="title">
+            <td >
+                <input type="checkbox" class="checkbox"></td>
+                <td><img src="images/05.jpg"></td>
+                <td><span>2084</span>
+
+            </td>
+            <td>Mason Engel</td>
+            <td>2017</td>
+            <td>12.50</td>
+            <td>CreateSpace Independent Publishing Platform</td>
+            <td>Science Fiction</td>
+        </tr>
+        <tr class="title">
+            <td >
+                <input type="checkbox" class="checkbox"></td>
+                <td><img src="images/55.jpg"></td>
+                <td><span>God's Ground: Compared to the settlement of space, all other forms of human endeavor shrink to insignificance</span>
+
+            </td>
+            <td>John Brophy</td>
+            <td>2017</td>
+            <td>6.99</td>
+            <td>John R Brophy</td>
+            <td>Science Fiction</td>
+        </tr>
+      </tbody>
+
+   </table>
+
+</div>
+</form>
+</body>
